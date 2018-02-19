@@ -11,15 +11,16 @@ $(document).ready(function() {
     $('footer').css('position', 'absolute');
   }
 
+  // Initialize Firebase
   var config = {
-    apiKey: 'AIzaSyCz9xauTDRFIDPU6M3YZhaI6Ues-vgcU9Q',
-    authDomain: 'network-red.firebaseapp.com',
-    databaseURL: 'https://network-red.firebaseio.com',
-    projectId: 'network-red',
-    storageBucket: 'network-red.appspot.com',
-    messagingSenderId: '775688474324'
+    apiKey: "AIzaSyBx11MSy7Uuh3J6AsVXpDqrUeWWwdfW1Wk",
+    authDomain: "red-social-4100d.firebaseapp.com",
+    databaseURL: "https://red-social-4100d.firebaseio.com",
+    projectId: "red-social-4100d",
+    storageBucket: "red-social-4100d.appspot.com",
+    messagingSenderId: "390141516467"
   };
-
+  
   firebase.initializeApp(config);
 
   var $ingresoGoogle = $('#btn-google');
